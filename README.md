@@ -45,6 +45,7 @@ PASV
 The FTPserver will return a new server address and port number in the form s1,s2,s3,s4,p1,p2
 
 5. Open another Terminal window for file connection and connect using **netcat** and the server and port from step 4.
+
 ```sh
 netcat <s1.s2.s3.s4> <new port>
 ```
@@ -63,9 +64,11 @@ Linux:
 
 <details><summary><b>Show instructions</b></summary>
 1. Open command line and run Makefile with port number between 1024 and 65535, inclusive.
+ 
 ```sh
 make run <port #>
 ```
+
 2. Open another command line window for client and connect using **ftp** or equivalent 
 
 ```sh
