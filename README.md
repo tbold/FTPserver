@@ -22,9 +22,11 @@ Implemented commands:
 macOS: 
 <details><summary><b>Show instructions</b></summary>
 1. Open Terminal and run Makefile with port number between 1024 and 65535, inclusive.
+ 
 ```sh
 make run <port #>
 ```
+
 2. Open another Terminal window for client and connect using **netcat** or equivalent 
 
 ```sh
